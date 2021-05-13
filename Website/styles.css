@@ -1,0 +1,44 @@
+body {
+  margin-left:0px;
+  padding:
+0px;
+  margin-right:0px;
+}
+h1 {
+  color: #673ab7;
+  font-size: 100px;
+  width: 100%;
+  font-family: Georgia;
+  text-align: center;
+}
+h2 {
+  font-size: 35px;
+  width: 80%;
+  font-family: Georgia;
+  text-align: center;
+  padding-left: 150px;
+}
+h3 {
+  border-bottom: 4px solid purple;
+  position: relative;
+  padding-left: 0px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+p {
+  font-size: 15px;
+  width: 80%;
+  font-family: Georgia;
+  color: #673ab7;
+  position: relative;
+  bottom: 30px;
+  padding-left: 675px;
+  
